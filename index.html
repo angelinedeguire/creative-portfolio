@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative UI/UX Designer Portfolio - Crafting beautiful, functional digital experiences">
+    <title>Alex Chen | UI/UX Designer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-mark">◆</span>
+                <span class="logo-text">Alex Chen</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle mobile menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-subtitle" data-animate>Designing Digital Experiences</p>
+                <h1 class="hero-title" data-animate>
+                    I craft <span class="gradient-text">beautiful</span> & <span class="gradient-text">functional</span> interfaces
+                </h1>
+                <p class="hero-description" data-animate>
+                    I'm a UI/UX designer based in San Francisco, specializing in creating user-centered digital products that solve real problems and delight users.
+                </p>
+                <div class="hero-cta" data-animate>
+                    <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=600&fit=crop" alt="UI/UX Design workspace" loading="lazy">
+                    <div class="image-glow"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        With 5+ years of experience in UI/UX design, I've helped startups and established companies transform their digital products. My approach combines user research, creative problem-solving, and modern design principles.
+                    </p>
+                    <p>
+                        I believe great design is invisible—it solves problems seamlessly while bringing joy to users. Every pixel has a purpose, and every interaction tells a story.
+                    </p>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-badge">UI Design</div>
+                        <div class="skill-badge">UX Research</div>
+                        <div class="skill-badge">Prototyping</div>
+                        <div class="skill-badge">Design Systems</div>
+                        <div class="skill-badge">Figma</div>
+                        <div class="skill-badge">Web Design</div>
+                        <div class="skill-badge">Interaction Design</div>
+                        <div class="skill-badge">Accessibility</div>
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-card glass-effect">
+                        <h3 class="stat-number">50+</h3>
+                        <p class="stat-label">Projects Completed</p>
+                    </div>
+                    <div class="stat-card glass-effect">
+                        <h3 class="stat-number">30+</h3>
+                        <p class="stat-label">Happy Clients</p>
+                    </div>
+                    <div class="stat-card glass-effect">
+                        <h3 class="stat-number">5+</h3>
+                        <p class="stat-label">Years Experience</p>
+                    </div>
+                    <div class="stat-card glass-effect">
+                        <h3 class="stat-number">12M+</h3>
+                        <p class="stat-label">Users Impacted</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects - Bento Box Layout -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="projects-grid">
+                <!-- Large Featured Project -->
+                <article class="project-card project-card-large" tabindex="0">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=500&fit=crop" alt="TechFlow App">
+                    </div>
+                    <div class="project-overlay glass-effect">
+                        <div class="project-content">
+                            <span class="project-category">Product Design</span>
+                            <h3 class="project-title">TechFlow App Redesign</h3>
+                            <p class="project-description">Complete redesign of a project management tool, resulting in 40% increase in user engagement and improved task completion rates.</p>
+                            <div class="project-tags">
+                                <span class="tag">UI Design</span>
+                                <span class="tag">UX Research</span>
+                                <span class="tag">Design System</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Small Project 1 -->
+                <article class="project-card project-card-small" tabindex="0">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1547921881-74ce100262c6?w=400&h=300&fit=crop" alt="Mobile Banking App">
+                    </div>
+                    <div class="project-overlay glass-effect">
+                        <div class="project-content">
+                            <span class="project-category">Mobile App</span>
+                            <h3 class="project-title">Banking Mobile App</h3>
+                            <p class="project-description">Intuitive financial dashboard with real-time notifications.</p>
+                            <div class="project-tags">
+                                <span class="tag">Mobile</span>
+                                <span class="tag">Fintech</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Small Project 2 -->
+                <article class="project-card project-card-small" tabindex="0">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db6d?w=400&h=300&fit=crop" alt="E-commerce Platform">
+                    </div>
+                    <div class="project-overlay glass-effect">
+                        <div class="project-content">
+                            <span class="project-category">Web Design</span>
+                            <h3 class="project-title">E-commerce Platform</h3>
+                            <p class="project-description">Modern shopping experience with seamless checkout.</p>
+                            <div class="project-tags">
+                                <span class="tag">E-commerce</span>
+                                <span class="tag">Web</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Medium Project 1 -->
+                <article class="project-card project-card-medium" tabindex="0">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=400&fit=crop" alt="SaaS Dashboard">
+                    </div>
+                    <div class="project-overlay glass-effect">
+                        <div class="project-content">
+                            <span class="project-category">SaaS</span>
+                            <h3 class="project-title">Analytics Dashboard</h3>
+                            <p class="project-description">Complex data visualization made simple and beautiful for enterprise users.</p>
+                            <div class="project-tags">
+                                <span class="tag">Dashboard</span>
+                                <span class="tag">Analytics</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Medium Project 2 -->
+                <article class="project-card project-card-medium" tabindex="0">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=400&fit=crop" alt="Health & Fitness App">
+                    </div>
+                    <div class="project-overlay glass-effect">
+                        <div class="project-content">
+                            <span class="project-category">Health Tech</span>
+                            <h3 class="project-title">Fitness Tracking App</h3>
+                            <p class="project-description">Motivating interface that encourages daily fitness goals and community engagement.</p>
+                            <div class="project-tags">
+                                <span class="tag">Health</span>
+                                <span class="tag">Wearables</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Tall Project -->
+                <article class="project-card project-card-tall" tabindex="0">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=600&fit=crop" alt="Design System">
+                    </div>
+                    <div class="project-overlay glass-effect">
+                        <div class="project-content">
+                            <span class="project-category">Design Systems</span>
+                            <h3 class="project-title">Enterprise Design System</h3>
+                            <p class="project-description">Comprehensive component library and guidelines for 200+ designers across 3 product teams.</p>
+                            <div class="project-tags">
+                                <span class="tag">Design System</span>
+                                <span class="tag">Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card glass-effect">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "Alex transformed our product from ordinary to exceptional. Their attention to detail and user-centric approach is unmatched."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop" alt="Sarah Johnson">
+                        <div>
+                            <p class="author-name">Sarah Johnson</p>
+                            <p class="author-title">CEO, TechFlow</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-effect">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "Working with Alex was a game-changer for our startup. They helped us create a design system that scaled beautifully."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=50&h=50&fit=crop" alt="Michael Chen">
+                        <div>
+                            <p class="author-name">Michael Chen</p>
+                            <p class="author-title">Founder, StartupXYZ</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-effect">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "Exceptional designer who combines creativity with strategic thinking. Highly recommend for any design challenge."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=50&h=50&fit=crop" alt="Emily Rodriguez">
+                        <div>
+                            <p class="author-name">Emily Rodriguez</p>
+                            <p class="author-title">Design Director, AgencyX</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content glass-effect">
+                <h2>Ready to work together?</h2>
+                <p>Let's create something amazing. I'm always excited to collaborate on new projects and explore fresh ideas.</p>
+                <a href="#contact" class="btn btn-primary btn-large">Start a Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Whether you have a project in mind or just want to say hello, feel free to reach out!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">✉</span>
+                            <a href="mailto:hello@alexchen.design">hello@alexchen.design</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <a href="tel:+1234567890">+1 (234) 567-890</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <p>San Francisco, CA</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+                        <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+                        <a href="#" class="social-link" aria-label="Dribbble">◯</a>
+                        <a href="#" class="social-link" aria-label="GitHub">⌘</a>
+                    </div>
+                </div>
+
+                <form class="contact-form" aria-label="Contact form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Alex Chen. All rights reserved.</p>
+                <p class="footer-note">Designed & built with care ✨</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
